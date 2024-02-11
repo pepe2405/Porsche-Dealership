@@ -1,0 +1,22 @@
+[
+  {
+    "username": "customer",
+    "password": "5ECC9CB9C1C5374DB0DF632CFA5976BE",
+    "role": "CUSTOMER"
+  },
+  {
+    "username": "rado",
+    "password": "F72EEA8B27F383BA93A2E721C442C93A",
+    "role": "CUSTOMER"
+  },
+  {
+    "username": "presi",
+    "password": "6B06EE4A6D6ABB9A616BF780E35656E1",
+    "role": "STAFF"
+  },
+  {
+    "username": "staff",
+    "password": "67E847D4F95D92EECB5887BE197F1866",
+    "role": "STAFF"
+  }
+]
