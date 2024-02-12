@@ -1,0 +1,12 @@
+bg.sofia.uni.fmi.mjt.dealership.client
+bg.sofia.uni.fmi.mjt.dealership.server
+bg.sofia.uni.fmi.mjt.dealership.server.command
+bg.sofia.uni.fmi.mjt.dealership.server.command.inventory
+bg.sofia.uni.fmi.mjt.dealership.server.command.testdrives
+bg.sofia.uni.fmi.mjt.dealership.server.command.user
+bg.sofia.uni.fmi.mjt.dealership.server.exception
+bg.sofia.uni.fmi.mjt.dealership.server.model
+bg.sofia.uni.fmi.mjt.dealership.server.model.enums
+bg.sofia.uni.fmi.mjt.dealership.server.repository
+bg.sofia.uni.fmi.mjt.dealership.server.service
+bg.sofia.uni.fmi.mjt.dealership.server.util

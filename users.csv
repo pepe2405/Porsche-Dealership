@@ -1,0 +1,17 @@
+[
+  {
+    "username": "asd",
+    "password": "FBE69CF957951830352A897F4C6577AA",
+    "role": "STAFF"
+  },
+  {
+    "username": "staff",
+    "password": "67E847D4F95D92EECB5887BE197F1866",
+    "role": "STAFF"
+  },
+  {
+    "username": "pepe",
+    "password": "FEE2B542D5FF931B89C98332DE97321A",
+    "role": "CUSTOMER"
+  }
+]

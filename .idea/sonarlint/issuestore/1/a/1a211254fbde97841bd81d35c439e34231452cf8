@@ -1,0 +1,6 @@
+
+„
+java:S1192T"gDefine a constant instead of duplicating this literal "User with this username does not exist" 3 times.(Åğ„8ÎÒèÔÙ1
+g
+java:S1301E"KReplace this "switch" statement by "if" statements to increase readability.(¶„æ8ö×²¹Ù1
+t	java:S131E"YComplete cases by adding the missing enum constants or add a default case to this switch.(¶„æ8–Ø²¹Ù1

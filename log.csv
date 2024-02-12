@@ -1,0 +1,35 @@
+[ 12-02-2024 13:11:50.956 ]  User logged in
+[WARNING] [ 12-02-2024 13:12:14.581 ]  Cylinders cannot be lower than 4 or higher than 8
+[ 12-02-2024 13:12:29.108 ]  Adding car by staff
+[ 12-02-2024 13:12:33.456 ]  Showing all the available cars
+[WARNING] [ 12-02-2024 13:12:59.912 ]  Invalid command
+[ 12-02-2024 13:13:13.399 ]  Removing car 123 by staff
+[ 12-02-2024 13:13:26.483 ]  Adding car by staff
+[WARNING] [ 12-02-2024 13:13:27.374 ]  Car already exists
+[WARNING] [ 12-02-2024 13:13:27.374 ]  This car already exists.
+[ 12-02-2024 13:13:46.179 ]  Adding car by staff
+[ 12-02-2024 13:13:50.386 ]  Cleared inventory by staff
+[ 12-02-2024 13:14:04.621 ]  User logged out
+[ERROR] [ 12-02-2024 13:14:07.993 ]  Server stopped.
+java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:203)
+	at java.base/sun.nio.ch.SocketChannelImpl.endRead(SocketChannelImpl.java:396)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:436)
+	at bg.sofia.uni.fmi.mjt.dealership.client.ClientImp.parseServerRequest(ClientImp.java:96)
+	at bg.sofia.uni.fmi.mjt.dealership.client.ClientImp.lambda$readServerResponse$0(ClientImp.java:84)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[ERROR] [ 12-02-2024 13:15:14.069 ]  Server stopped.
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at bg.sofia.uni.fmi.mjt.dealership.client.ClientImp.parseServerRequest(ClientImp.java:96)
+	at bg.sofia.uni.fmi.mjt.dealership.client.ClientImp.lambda$readServerResponse$0(ClientImp.java:84)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
