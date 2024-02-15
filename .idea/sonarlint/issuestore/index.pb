@@ -137,7 +137,10 @@ Stest/bg/sofia/uni/fmi/mjt/dealership/server/command/user/UpdateUserCommandTest.
 Ttest/bg/sofia/uni/fmi/mjt/dealership/server/service/CarInventoryServiceImplTest.java,b\b\bb8a9922daf68ebc175c805f1b130a8fb811cbac
 |
 Ltest/bg/sofia/uni/fmi/mjt/dealership/server/service/UserManagerImplTest.java,e\8\e879a97b4d93150a537f871c8294b436043a468a
+}
+Mtest/bg/sofia/uni/fmi/mjt/dealership/server/command/CommandValidatorTest.java,8\8\88a63190f0dafc43339f575ffebd6b3ec85a6529
 9
-	users.csv,a\c\acf9e7ffd0e7fdc6d0a5bba07664433b363811c4
-8
-cars.csv,4\e\4e7fac078f873ed855a9951cc374411c36352562
+	cars.json,d\d\dd06cdcffb77a1d603e7023bae6972dfb6befbef
+:
+
+users.json,b\9\b9a3cf24e48e943560b97c62600586fba3ad4f68

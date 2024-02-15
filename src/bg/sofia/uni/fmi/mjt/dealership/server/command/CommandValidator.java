@@ -48,6 +48,7 @@ public class CommandValidator {
         if (user != null) {
             role = user.getRole();
         }
+
         return switch (role) {
             case CUSTOMER -> CUSTOMER_COMMANDS.contains(command);
             case STAFF -> STAFF_COMMANDS.contains(command);

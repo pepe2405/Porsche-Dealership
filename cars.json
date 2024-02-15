@@ -1,0 +1,11 @@
+[
+  {
+    "vin": "1",
+    "model": "taycan",
+    "year": 2024,
+    "drive": "AWD",
+    "cylinders": 5,
+    "displacement": 4.0,
+    "transmission": "Auto"
+  }
+]

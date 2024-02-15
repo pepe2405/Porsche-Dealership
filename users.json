@@ -1,0 +1,17 @@
+[
+  {
+    "username": "pepe",
+    "password": "FEE2B542D5FF931B89C98332DE97321A",
+    "role": "STAFF"
+  },
+  {
+    "username": "pepe1",
+    "password": "D47681BF3CC45CC5D0810F964B8BB687",
+    "role": "CUSTOMER"
+  },
+  {
+    "username": "stoio",
+    "password": "1A9753C5160D05EE4431E3FA87241C1E",
+    "role": "CUSTOMER"
+  }
+]

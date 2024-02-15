@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  * It provides methods for managing the car inventory.
  */
 public class CarInventoryServiceImpl implements CarInventoryService {
-    private static final String FILE_PATH = "cars.csv";
+    private static final String FILE_PATH = "cars.json";
 
     private final LoggerImpl logger;
     private final FileRepository<Car> carFileRepository;

@@ -78,7 +78,7 @@ public class ClientImp implements Client {
     }
 
     private void readServerResponse(SocketChannel finalSocketChannel) {
-        executorService.submit(() -> {
+        executorService.execute(() -> {
             while (isServerWorking) {
                 try {
                     parseServerRequest(finalSocketChannel);
@@ -128,22 +128,13 @@ public class ClientImp implements Client {
 
     private void handleUserInput(String clientInput, SocketChannel socketChannel) throws IOException {
         DataContainer serverRequest = new DataContainer(clientInput, user);
-        if (clientInput.equalsIgnoreCase(EXIT_COMMAND)) {
-            disconnectFromServer(socketChannel);
-            return;
-        }
 
-        if (clientInput.equalsIgnoreCase(HELP_COMMAND)) {
-            printHelp();
-            return;
+        switch (clientInput.toLowerCase()) {
+            case EXIT_COMMAND -> disconnectFromServer(socketChannel);
+            case HELP_COMMAND -> printHelp();
+            case STATUS_COMMAND -> printStatus();
+            default -> sendCommandToServer(serverRequest, socketChannel);
         }
-
-        if (clientInput.equalsIgnoreCase(STATUS_COMMAND)) {
-            printStatus();
-            return;
-        }
-
-        sendCommandToServer(serverRequest, socketChannel);
     }
 
     private void sendCommandToServer(DataContainer serverRequest, SocketChannel socketChannel) throws IOException {

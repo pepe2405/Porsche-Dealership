@@ -24,7 +24,7 @@ import java.util.Map;
  * It also provides methods to save and load user data from a file.
  */
 public class UserManagerServiceImpl implements UserManagerService {
-    private static final String FILE_PATH = "users.csv";
+    private static final String FILE_PATH = "users.json";
 
     private final LoggerImpl logger;
     private final FileRepository<User> usersFileRepository;

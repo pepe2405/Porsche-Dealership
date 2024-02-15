@@ -60,6 +60,7 @@ public class ServerImpl implements Server {
         buffer = ByteBuffer.allocate(BUFFER_SIZE);
     }
 
+    @Override
     public void start() {
         ServerSocketChannel serverSocketChannel = null;
 
